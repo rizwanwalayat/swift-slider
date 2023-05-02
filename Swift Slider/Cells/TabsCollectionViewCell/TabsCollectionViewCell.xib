@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo-SemiBold.ttf">
+            <string>Cairo-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TabsCollectionViewCell" id="gTV-IL-0wX" customClass="TabsCollectionViewCell" customModule="yahuda_artisan_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="287" height="35"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="287" height="35"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JGf-E4-uXK">
+                        <rect key="frame" x="0.0" y="0.0" width="287" height="35"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="1ql-9s-fZo">
+                                <rect key="frame" x="82.5" y="5" width="122" height="19.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SendIcon" translatesAutoresizingMaskIntoConstraints="NO" id="DdO-XA-cr6">
+                                        <rect key="frame" x="0.0" y="0.0" width="24" height="19.5"/>
+                                        <color key="tintColor" name="Grey9"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recent Projects" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IV0-Vz-vQZ">
+                                        <rect key="frame" x="29" y="0.0" width="93" height="19.5"/>
+                                        <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="14"/>
+                                        <color key="textColor" name="Grey9"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="teq-6q-KYw">
+                                <rect key="frame" x="0.0" y="32" width="287" height="3"/>
+                                <color key="backgroundColor" name="PrimaryRed"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="3" id="G6m-qD-9fU"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="1.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="5S4-se-AW8"/>
+                            <constraint firstItem="1ql-9s-fZo" firstAttribute="top" secondItem="JGf-E4-uXK" secondAttribute="top" constant="5" id="6x1-pL-Uhm"/>
+                            <constraint firstItem="teq-6q-KYw" firstAttribute="leading" secondItem="JGf-E4-uXK" secondAttribute="leading" id="Kuk-8Y-apl"/>
+                            <constraint firstAttribute="trailing" secondItem="teq-6q-KYw" secondAttribute="trailing" id="NxC-Ud-CCM"/>
+                            <constraint firstItem="1ql-9s-fZo" firstAttribute="centerX" secondItem="JGf-E4-uXK" secondAttribute="centerX" id="gy0-is-Rq2"/>
+                            <constraint firstAttribute="bottom" secondItem="teq-6q-KYw" secondAttribute="bottom" id="pwV-uF-Zhc"/>
+                            <constraint firstItem="teq-6q-KYw" firstAttribute="top" secondItem="1ql-9s-fZo" secondAttribute="bottom" constant="7.5" id="qJ9-xA-vOJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="JGf-E4-uXK" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="4iK-ph-b56"/>
+                <constraint firstAttribute="trailing" secondItem="JGf-E4-uXK" secondAttribute="trailing" id="TJk-MK-9bT"/>
+                <constraint firstAttribute="bottom" secondItem="JGf-E4-uXK" secondAttribute="bottom" id="ZeH-Rd-QRq"/>
+                <constraint firstItem="JGf-E4-uXK" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fX7-kc-BgP"/>
+            </constraints>
+            <size key="customSize" width="285" height="35"/>
+            <connections>
+                <outlet property="TabImage" destination="DdO-XA-cr6" id="Xe6-ea-Zlq"/>
+                <outlet property="TabLabel" destination="IV0-Vz-vQZ" id="ONg-Ar-oMu"/>
+                <outlet property="selectedTabView" destination="teq-6q-KYw" id="FTB-yo-ek3"/>
+            </connections>
+            <point key="canvasLocation" x="-126.81159420289856" y="-3.0133928571428572"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="SendIcon" width="24" height="23.5"/>
+        <namedColor name="Grey9">
+            <color red="0.25098039215686274" green="0.25098039215686274" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="PrimaryRed">
+            <color red="0.95294117647058818" green="0.10980392156862745" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

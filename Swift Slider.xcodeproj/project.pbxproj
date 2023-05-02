@@ -9,21 +9,73 @@
 /* Begin PBXBuildFile section */
 		ECCFB8BF2A001D310006D1B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB8BE2A001D310006D1B3 /* AppDelegate.swift */; };
 		ECCFB8C12A001D310006D1B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB8C02A001D310006D1B3 /* SceneDelegate.swift */; };
-		ECCFB8C32A001D310006D1B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB8C22A001D310006D1B3 /* ViewController.swift */; };
-		ECCFB8C62A001D310006D1B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCFB8C42A001D310006D1B3 /* Main.storyboard */; };
+		ECCFB8C32A001D310006D1B3 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB8C22A001D310006D1B3 /* SliderViewController.swift */; };
+		ECCFB8C62A001D310006D1B3 /* SliderViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCFB8C42A001D310006D1B3 /* SliderViewController.storyboard */; };
 		ECCFB8C82A001D330006D1B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCFB8C72A001D330006D1B3 /* Assets.xcassets */; };
 		ECCFB8CB2A001D330006D1B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCFB8C92A001D330006D1B3 /* LaunchScreen.storyboard */; };
+		ECCFB8E72A010AB60006D1B3 /* ArtisanRecentProjectsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB8D52A010AB60006D1B3 /* ArtisanRecentProjectsVM.swift */; };
+		ECCFB8E82A010AB60006D1B3 /* PagesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCFB8D62A010AB60006D1B3 /* PagesCollectionViewCell.xib */; };
+		ECCFB8E92A010AB60006D1B3 /* ReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB8D82A010AB60006D1B3 /* ReviewsTableViewCell.swift */; };
+		ECCFB8EA2A010AB60006D1B3 /* ReviewsTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB8DA2A010AB60006D1B3 /* ReviewsTableViewHeaderView.swift */; };
+		ECCFB8EB2A010AB60006D1B3 /* ReviewsTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCFB8DB2A010AB60006D1B3 /* ReviewsTableViewHeaderView.xib */; };
+		ECCFB8EC2A010AB60006D1B3 /* ReviewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCFB8DC2A010AB60006D1B3 /* ReviewsTableViewCell.xib */; };
+		ECCFB8ED2A010AB60006D1B3 /* PagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB8DD2A010AB60006D1B3 /* PagesCollectionViewCell.swift */; };
+		ECCFB8EE2A010AB60006D1B3 /* AboutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCFB8DF2A010AB60006D1B3 /* AboutTableViewCell.xib */; };
+		ECCFB8EF2A010AB60006D1B3 /* AboutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB8E02A010AB60006D1B3 /* AboutTableViewCell.swift */; };
+		ECCFB8F02A010AB60006D1B3 /* JobsTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCFB8E32A010AB60006D1B3 /* JobsTableViewHeaderView.xib */; };
+		ECCFB8F12A010AB60006D1B3 /* JobsTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB8E42A010AB60006D1B3 /* JobsTableViewHeaderView.swift */; };
+		ECCFB8F22A010AB60006D1B3 /* JobsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB8E52A010AB60006D1B3 /* JobsTableViewCell.swift */; };
+		ECCFB8F32A010AB60006D1B3 /* JobsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCFB8E62A010AB60006D1B3 /* JobsTableViewCell.xib */; };
+		ECCFB8F72A010B550006D1B3 /* TabsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB8F52A010B550006D1B3 /* TabsCollectionViewCell.swift */; };
+		ECCFB8F82A010B550006D1B3 /* TabsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCFB8F62A010B550006D1B3 /* TabsCollectionViewCell.xib */; };
+		ECCFB8FA2A0117820006D1B3 /* ArtisanDetailTabsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB8F92A0117820006D1B3 /* ArtisanDetailTabsData.swift */; };
+		ECCFB8FE2A01181D0006D1B3 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB8FD2A01181D0006D1B3 /* Localization.swift */; };
+		ECCFB9002A01184C0006D1B3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECCFB8FF2A01184C0006D1B3 /* Localizable.strings */; };
+		ECCFB9032A0125040006D1B3 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB9022A0125040006D1B3 /* UIImage+Extension.swift */; };
+		ECCFB9062A0128860006D1B3 /* CertificateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCFB9042A0128860006D1B3 /* CertificateCollectionViewCell.xib */; };
+		ECCFB9072A0128860006D1B3 /* CertificateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB9052A0128860006D1B3 /* CertificateCollectionViewCell.swift */; };
+		ECCFB90A2A013EC80006D1B3 /* EmptyListHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCFB9082A013EC80006D1B3 /* EmptyListHeaderView.xib */; };
+		ECCFB90B2A013EC80006D1B3 /* EmptyListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB9092A013EC80006D1B3 /* EmptyListHeaderView.swift */; };
+		ECCFB90F2A0147D60006D1B3 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB90E2A0147D60006D1B3 /* UICollectionView+Extension.swift */; };
+		ECCFB9112A01491F0006D1B3 /* UIScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB9102A01491F0006D1B3 /* UIScrollView+Extension.swift */; };
+		ECCFB9132A014A790006D1B3 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFB9122A014A790006D1B3 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ECCFB8BB2A001D310006D1B3 /* Swift Slider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Slider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCFB8BE2A001D310006D1B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECCFB8C02A001D310006D1B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ECCFB8C22A001D310006D1B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ECCFB8C52A001D310006D1B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECCFB8C22A001D310006D1B3 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		ECCFB8C52A001D310006D1B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SliderViewController.storyboard; sourceTree = "<group>"; };
 		ECCFB8C72A001D330006D1B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECCFB8CA2A001D330006D1B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECCFB8CC2A001D330006D1B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCFB8D52A010AB60006D1B3 /* ArtisanRecentProjectsVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtisanRecentProjectsVM.swift; sourceTree = "<group>"; };
+		ECCFB8D62A010AB60006D1B3 /* PagesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PagesCollectionViewCell.xib; sourceTree = "<group>"; };
+		ECCFB8D82A010AB60006D1B3 /* ReviewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsTableViewCell.swift; sourceTree = "<group>"; };
+		ECCFB8DA2A010AB60006D1B3 /* ReviewsTableViewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsTableViewHeaderView.swift; sourceTree = "<group>"; };
+		ECCFB8DB2A010AB60006D1B3 /* ReviewsTableViewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewsTableViewHeaderView.xib; sourceTree = "<group>"; };
+		ECCFB8DC2A010AB60006D1B3 /* ReviewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewsTableViewCell.xib; sourceTree = "<group>"; };
+		ECCFB8DD2A010AB60006D1B3 /* PagesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		ECCFB8DF2A010AB60006D1B3 /* AboutTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutTableViewCell.xib; sourceTree = "<group>"; };
+		ECCFB8E02A010AB60006D1B3 /* AboutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTableViewCell.swift; sourceTree = "<group>"; };
+		ECCFB8E32A010AB60006D1B3 /* JobsTableViewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobsTableViewHeaderView.xib; sourceTree = "<group>"; };
+		ECCFB8E42A010AB60006D1B3 /* JobsTableViewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsTableViewHeaderView.swift; sourceTree = "<group>"; };
+		ECCFB8E52A010AB60006D1B3 /* JobsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsTableViewCell.swift; sourceTree = "<group>"; };
+		ECCFB8E62A010AB60006D1B3 /* JobsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobsTableViewCell.xib; sourceTree = "<group>"; };
+		ECCFB8F52A010B550006D1B3 /* TabsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabsCollectionViewCell.swift; sourceTree = "<group>"; };
+		ECCFB8F62A010B550006D1B3 /* TabsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabsCollectionViewCell.xib; sourceTree = "<group>"; };
+		ECCFB8F92A0117820006D1B3 /* ArtisanDetailTabsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtisanDetailTabsData.swift; sourceTree = "<group>"; };
+		ECCFB8FD2A01181D0006D1B3 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		ECCFB8FF2A01184C0006D1B3 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		ECCFB9022A0125040006D1B3 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		ECCFB9042A0128860006D1B3 /* CertificateCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CertificateCollectionViewCell.xib; sourceTree = "<group>"; };
+		ECCFB9052A0128860006D1B3 /* CertificateCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateCollectionViewCell.swift; sourceTree = "<group>"; };
+		ECCFB9082A013EC80006D1B3 /* EmptyListHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyListHeaderView.xib; sourceTree = "<group>"; };
+		ECCFB9092A013EC80006D1B3 /* EmptyListHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyListHeaderView.swift; sourceTree = "<group>"; };
+		ECCFB90E2A0147D60006D1B3 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		ECCFB9102A01491F0006D1B3 /* UIScrollView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extension.swift"; sourceTree = "<group>"; };
+		ECCFB9122A014A790006D1B3 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +108,153 @@
 		ECCFB8BD2A001D310006D1B3 /* Swift Slider */ = {
 			isa = PBXGroup;
 			children = (
+				ECCFB9012A0124F00006D1B3 /* Extensions */,
+				ECCFB8FC2A0118010006D1B3 /* Localization */,
+				ECCFB8FB2A01178E0006D1B3 /* Model */,
 				ECCFB8BE2A001D310006D1B3 /* AppDelegate.swift */,
 				ECCFB8C02A001D310006D1B3 /* SceneDelegate.swift */,
-				ECCFB8C22A001D310006D1B3 /* ViewController.swift */,
-				ECCFB8C42A001D310006D1B3 /* Main.storyboard */,
+				ECCFB8C22A001D310006D1B3 /* SliderViewController.swift */,
+				ECCFB8C42A001D310006D1B3 /* SliderViewController.storyboard */,
+				ECCFB8D22A010AB60006D1B3 /* Cells */,
 				ECCFB8C72A001D330006D1B3 /* Assets.xcassets */,
 				ECCFB8C92A001D330006D1B3 /* LaunchScreen.storyboard */,
 				ECCFB8CC2A001D330006D1B3 /* Info.plist */,
 			);
 			path = "Swift Slider";
+			sourceTree = "<group>";
+		};
+		ECCFB8D22A010AB60006D1B3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ECCFB90D2A013EDE0006D1B3 /* Certificate */,
+				ECCFB90C2A013ED00006D1B3 /* EmptyList */,
+				ECCFB8F42A010B550006D1B3 /* TabsCollectionViewCell */,
+				ECCFB8D32A010AB60006D1B3 /* PagesCollectionViewCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		ECCFB8D32A010AB60006D1B3 /* PagesCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECCFB8D42A010AB60006D1B3 /* ViewModel */,
+				ECCFB8D62A010AB60006D1B3 /* PagesCollectionViewCell.xib */,
+				ECCFB8DD2A010AB60006D1B3 /* PagesCollectionViewCell.swift */,
+				ECCFB8D72A010AB60006D1B3 /* ReviewsTableViewCell */,
+				ECCFB8DE2A010AB60006D1B3 /* AboutTableViewCell */,
+				ECCFB8E12A010AB60006D1B3 /* JobsTableViewCell */,
+			);
+			path = PagesCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		ECCFB8D42A010AB60006D1B3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ECCFB8D52A010AB60006D1B3 /* ArtisanRecentProjectsVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ECCFB8D72A010AB60006D1B3 /* ReviewsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECCFB8D82A010AB60006D1B3 /* ReviewsTableViewCell.swift */,
+				ECCFB8D92A010AB60006D1B3 /* HeaderView */,
+				ECCFB8DC2A010AB60006D1B3 /* ReviewsTableViewCell.xib */,
+			);
+			path = ReviewsTableViewCell;
+			sourceTree = "<group>";
+		};
+		ECCFB8D92A010AB60006D1B3 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				ECCFB8DA2A010AB60006D1B3 /* ReviewsTableViewHeaderView.swift */,
+				ECCFB8DB2A010AB60006D1B3 /* ReviewsTableViewHeaderView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		ECCFB8DE2A010AB60006D1B3 /* AboutTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECCFB8DF2A010AB60006D1B3 /* AboutTableViewCell.xib */,
+				ECCFB8E02A010AB60006D1B3 /* AboutTableViewCell.swift */,
+			);
+			path = AboutTableViewCell;
+			sourceTree = "<group>";
+		};
+		ECCFB8E12A010AB60006D1B3 /* JobsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECCFB8E22A010AB60006D1B3 /* HeaderView */,
+				ECCFB8E52A010AB60006D1B3 /* JobsTableViewCell.swift */,
+				ECCFB8E62A010AB60006D1B3 /* JobsTableViewCell.xib */,
+			);
+			path = JobsTableViewCell;
+			sourceTree = "<group>";
+		};
+		ECCFB8E22A010AB60006D1B3 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				ECCFB8E32A010AB60006D1B3 /* JobsTableViewHeaderView.xib */,
+				ECCFB8E42A010AB60006D1B3 /* JobsTableViewHeaderView.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		ECCFB8F42A010B550006D1B3 /* TabsCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECCFB8F52A010B550006D1B3 /* TabsCollectionViewCell.swift */,
+				ECCFB8F62A010B550006D1B3 /* TabsCollectionViewCell.xib */,
+			);
+			path = TabsCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		ECCFB8FB2A01178E0006D1B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECCFB8F92A0117820006D1B3 /* ArtisanDetailTabsData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECCFB8FC2A0118010006D1B3 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				ECCFB8FD2A01181D0006D1B3 /* Localization.swift */,
+				ECCFB8FF2A01184C0006D1B3 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		ECCFB9012A0124F00006D1B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ECCFB9022A0125040006D1B3 /* UIImage+Extension.swift */,
+				ECCFB90E2A0147D60006D1B3 /* UICollectionView+Extension.swift */,
+				ECCFB9102A01491F0006D1B3 /* UIScrollView+Extension.swift */,
+				ECCFB9122A014A790006D1B3 /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ECCFB90C2A013ED00006D1B3 /* EmptyList */ = {
+			isa = PBXGroup;
+			children = (
+				ECCFB9092A013EC80006D1B3 /* EmptyListHeaderView.swift */,
+				ECCFB9082A013EC80006D1B3 /* EmptyListHeaderView.xib */,
+			);
+			path = EmptyList;
+			sourceTree = "<group>";
+		};
+		ECCFB90D2A013EDE0006D1B3 /* Certificate */ = {
+			isa = PBXGroup;
+			children = (
+				ECCFB9052A0128860006D1B3 /* CertificateCollectionViewCell.swift */,
+				ECCFB9042A0128860006D1B3 /* CertificateCollectionViewCell.xib */,
+			);
+			path = Certificate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +316,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECCFB8CB2A001D330006D1B3 /* LaunchScreen.storyboard in Resources */,
+				ECCFB8F02A010AB60006D1B3 /* JobsTableViewHeaderView.xib in Resources */,
+				ECCFB9002A01184C0006D1B3 /* Localizable.strings in Resources */,
+				ECCFB8EC2A010AB60006D1B3 /* ReviewsTableViewCell.xib in Resources */,
+				ECCFB90A2A013EC80006D1B3 /* EmptyListHeaderView.xib in Resources */,
 				ECCFB8C82A001D330006D1B3 /* Assets.xcassets in Resources */,
-				ECCFB8C62A001D310006D1B3 /* Main.storyboard in Resources */,
+				ECCFB8F82A010B550006D1B3 /* TabsCollectionViewCell.xib in Resources */,
+				ECCFB8EB2A010AB60006D1B3 /* ReviewsTableViewHeaderView.xib in Resources */,
+				ECCFB8EE2A010AB60006D1B3 /* AboutTableViewCell.xib in Resources */,
+				ECCFB9062A0128860006D1B3 /* CertificateCollectionViewCell.xib in Resources */,
+				ECCFB8C62A001D310006D1B3 /* SliderViewController.storyboard in Resources */,
+				ECCFB8F32A010AB60006D1B3 /* JobsTableViewCell.xib in Resources */,
+				ECCFB8E82A010AB60006D1B3 /* PagesCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +338,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECCFB8C32A001D310006D1B3 /* ViewController.swift in Sources */,
+				ECCFB8ED2A010AB60006D1B3 /* PagesCollectionViewCell.swift in Sources */,
+				ECCFB9032A0125040006D1B3 /* UIImage+Extension.swift in Sources */,
+				ECCFB8F12A010AB60006D1B3 /* JobsTableViewHeaderView.swift in Sources */,
+				ECCFB9132A014A790006D1B3 /* String+Extension.swift in Sources */,
+				ECCFB90B2A013EC80006D1B3 /* EmptyListHeaderView.swift in Sources */,
+				ECCFB8EF2A010AB60006D1B3 /* AboutTableViewCell.swift in Sources */,
+				ECCFB8E72A010AB60006D1B3 /* ArtisanRecentProjectsVM.swift in Sources */,
+				ECCFB8E92A010AB60006D1B3 /* ReviewsTableViewCell.swift in Sources */,
+				ECCFB8FE2A01181D0006D1B3 /* Localization.swift in Sources */,
+				ECCFB8C32A001D310006D1B3 /* SliderViewController.swift in Sources */,
+				ECCFB8F72A010B550006D1B3 /* TabsCollectionViewCell.swift in Sources */,
 				ECCFB8BF2A001D310006D1B3 /* AppDelegate.swift in Sources */,
+				ECCFB8F22A010AB60006D1B3 /* JobsTableViewCell.swift in Sources */,
+				ECCFB9072A0128860006D1B3 /* CertificateCollectionViewCell.swift in Sources */,
+				ECCFB9112A01491F0006D1B3 /* UIScrollView+Extension.swift in Sources */,
+				ECCFB8EA2A010AB60006D1B3 /* ReviewsTableViewHeaderView.swift in Sources */,
 				ECCFB8C12A001D310006D1B3 /* SceneDelegate.swift in Sources */,
+				ECCFB8FA2A0117820006D1B3 /* ArtisanDetailTabsData.swift in Sources */,
+				ECCFB90F2A0147D60006D1B3 /* UICollectionView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ECCFB8C42A001D310006D1B3 /* Main.storyboard */ = {
+		ECCFB8C42A001D310006D1B3 /* SliderViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				ECCFB8C52A001D310006D1B3 /* Base */,
 			);
-			name = Main.storyboard;
+			name = SliderViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		ECCFB8C92A001D330006D1B3 /* LaunchScreen.storyboard */ = {
@@ -290,7 +506,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Swift Slider/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = SliderViewController.storyboar;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -317,7 +533,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Swift Slider/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = SliderViewController.storyboar;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

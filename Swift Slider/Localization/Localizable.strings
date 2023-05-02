@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Swift Slider
+
+  Created by Rizwan Walayat on 02/05/2023.
+  
+*/
+"artisan_detail_tabs_recent_projects" = "Recent Projects";
+"artisan_detail_tabs_reviews" = "Reviews";
+"artisan_detail_tabs_about" = "About";

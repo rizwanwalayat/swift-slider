@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D91B3257-449A-40A6-969D-8A73DDA2CC3D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B052352-AFEB-4D9D-9DCD-DD25E4E735F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift Slider/SliderViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "SliderViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0FA77C3-B52A-44F2-B60F-EF5D55E84EA2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift Slider/SliderViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "SliderViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E0FA77C3-B52A-44F2-B60F-EF5D55E84EA2 - a50c62d9078ce6fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_Slider.SliderViewController.artisanDetailView.getter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Swift Slider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/synavos/Desktop/Projects/Swift%20Slider/Swift%20Slider/SliderViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "E0FA77C3-B52A-44F2-B60F-EF5D55E84EA2 - 2ce17169e7c17ec0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_Slider.SliderViewController.artisanDetailView.setter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Swift Slider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/synavos/Desktop/Projects/Swift%20Slider/Swift%20Slider/SliderViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "E0FA77C3-B52A-44F2-B60F-EF5D55E84EA2 - 4c7773a60abb10f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_Slider.SliderViewController.artisanDetailView.modify : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Swift Slider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/synavos/Desktop/Projects/Swift%20Slider/Swift%20Slider/SliderViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "E0FA77C3-B52A-44F2-B60F-EF5D55E84EA2 - 4fcb5db1e128bfdc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_Slider.SliderViewController.artisanDetailView.modify : Swift.Optional&lt;__C.UIView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Swift Slider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/synavos/Desktop/Projects/Swift%20Slider/Swift%20Slider/SliderViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "E0FA77C3-B52A-44F2-B60F-EF5D55E84EA2 - 846645911346ee83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_Slider.SliderViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Swift_Slider.SliderViewController"
+                  moduleName = "Swift Slider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/synavos/Desktop/Projects/Swift%20Slider/Swift%20Slider/SliderViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "475">
+               </Location>
+               <Location
+                  uuid = "E0FA77C3-B52A-44F2-B60F-EF5D55E84EA2 - 7b97c809737aaff3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_Slider.SliderViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Swift_Slider.SliderViewController&gt;"
+                  moduleName = "Swift Slider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/synavos/Desktop/Projects/Swift%20Slider/Swift%20Slider/SliderViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "432">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
